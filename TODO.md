@@ -1,6 +1,6 @@
 # TODO
 ## Summary
-- [ ] chi-square test for orthogonal and LHC sampling methods
+- [ ] kolmogorov-smirnov test for orthogonal and LHC sampling methods
 - [ ] Welch-test for choosing i-value
 - [ ] Confidence interval for s-value
 - [ ] Rewrite the way of how data of simulations is saved
@@ -17,7 +17,7 @@
 
 ## Statistical Tests
 ### Orthogonal and LHC Sampling
-Use chi-square test to verify that they resemble uniform distribution for large N
+Use kolmogorov-smirnov test to verify that they resemble uniform distribution for large N
 ### Choosing an i-value 
 We want to choose an i value such that |A(i,s) - A(j,s)| is small
 for some j < i. So, we would like to test for E(A(i,s)) = E(A(j,s))
