@@ -3,6 +3,13 @@
 - [ ] chi-square test for orthogonal and LHC sampling methods
 - [ ] Welch-test for choosing i-value
 - [ ] Confidence interval for s-value
+- [ ] Rewrite the way of how data of simulations is saved
+- [ ] Change line plots by adding the second Y-axis with difference |A(i,s) - A(j,s)|
+- [ ] Box-plot (with a specific values of i and s) post 3 simulations (different sampling)
+- [ ] F-test(Fischer) to compare the variance of the three sampling techniques given the same i and s
+- [ ] Formulate final set of simulations for variance reduction
+- [ ] Compare the final set of simulation -? with the other three methods by means of statistical tests -?
+
 
 ## Statistical Tests
 ### Orthogonal and LHC Sampling
@@ -28,3 +35,17 @@ within other JIT functions
 accumulate the results
 
 The former should be easier.
+
+### F-test(Fischer) to compare the variance of three sampling methods
+
+## Experiments and data:
+Save data in a different way that allows to make box-plots - discuss. CPU count -?
+Run simulations (three sampling methods, and a formulated method for further variance reduction).
+
+## Plots:
+We change the line plots by adding the second y-axis corresponding to the difference |A(i,s) - A(j,s)|. 
+
+Box plots are to be constructed with the data obtained from the simulations (after rewriting how data in simulations is saved).
+
+We need to consider how to visualise results of the further variance reduction method. As one option, create and extra box plot and compare the variance. 
+
