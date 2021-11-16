@@ -10,6 +10,10 @@
 - [ ] Formulate final set of simulations for variance reduction
 - [ ] Compare the final set of simulation -? with the other three methods by means of statistical tests -?
 
+## Writing to do:
+- [ ] Change sections
+
+
 
 ## Statistical Tests
 ### Orthogonal and LHC Sampling
